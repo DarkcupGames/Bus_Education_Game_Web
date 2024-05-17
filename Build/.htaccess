@@ -2,7 +2,7 @@
 # NOTE: "mod_mime" Apache module must be enabled for this configuration to work.
 <IfModule mod_mime.c>
 
-Header set Access-Control-Allow-Origin "https://darkcupgames.github.io/Bus_Education_Game_Web"
+Header set Access-Control-Allow-Origin "https://event.hust.edu.vn"
 Header add Access-Control-Allow-Headers "origin, x-requested-with, content-type"
 Header add Access-Control-Allow-Methods "PUT, GET, POST, DELETE, OPTIONS"
 
